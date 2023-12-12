@@ -1,0 +1,5 @@
+== Physical Plan ==
+*HashAggregate(keys=[major_id#192], functions=[count(first_name#183)], output=[major_id#192, count(first_name)#234L])
++- Exchange hashpartitioning(major_id#192, 200)
+   +- *HashAggregate(keys=[major_id#192], functions=[partial_count(first_name#183)], output=[major_id#192, count#236L])
+      +- *Scan csv [first_name#183,major_id#192] Format: CSV, InputPaths: hdfs://localhost:9000/student_data.csv, PushedFilters: [], ReadSchema: struct<first_name:string,major_id:string>

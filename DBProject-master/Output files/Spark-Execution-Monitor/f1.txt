@@ -1,0 +1,3 @@
+== Parsed Logical Plan ==
+'Aggregate ['major_id], ['major_id, unresolvedalias('count('first_name), None)]
++- 'UnresolvedRelation `student`

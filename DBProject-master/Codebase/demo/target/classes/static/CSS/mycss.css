@@ -1,0 +1,130 @@
+body{
+    background: #2f294f;
+}
+.fireflies{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background:#2f294f;
+    margin:0;
+}
+#note{
+    position:absolute;
+    color:rgba(249,241,204,1);
+    left:0;
+    right:0;
+    bottom:20px;
+    margin:auto;
+    text-align:center;
+    user-select:none;
+    font-family:Arial;
+}
+.welcome{
+    margin-top:1%;
+    color:white;
+    font-family: 'Noto Serif',serif;
+    text-align:center;
+}
+.welcome_title{
+    color:floralwhite;
+    font-family: 'Noto Serif',Serif;
+    text-align: center;
+    margin-top:2%;
+}
+.buttons{
+    color:black;
+    font-family: Arial;
+}
+.txt{
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+#box_text{
+    color:black;
+    background-color: whitesmoke;
+    width:30%;
+    font-size:20px;
+}
+.results{
+    margin:5%;
+}
+.dbguide{
+    margin-top:5%;
+}
+table{
+    color:floralwhite;
+    border-color: floralwhite;
+    border-style: solid;
+    padding:5px;
+}
+th{
+    color:black;
+    border: 3px solid white;
+    padding:5px;
+    background-color: aliceblue;
+    text-align: center;
+}
+td{
+    border:3px solid floralwhite;
+    padding:5px;
+    color: floralwhite;
+    align:center;
+    text-align: center;
+}
+.info_table{
+    color:whitesmoke;
+    font-size:15px;
+    align:center;
+}
+
+.guides{
+    color:floralwhite;
+    align:center;
+    margin: 5%;
+    margin-top: 3%;
+    border: double 5px floralwhite;
+    font-family: 'Merriweather',Serif;
+    font-size: 16px;
+}
+.Titles{
+    font-size: 30px;
+    color:white;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size:14px;
+    font-family: 'Merriweather',serif;
+}
+.contact_details{
+    margin:10px;
+    border:solid 5px floralwhite;
+    color:white;
+}
+#jtext{
+    font-size:18px;
+
+}
+.info{
+    color:white;
+    margin-left:5%;
+    margin-right:5%;
+    font-family:"Merriweather";
+
+}
+#startbutton{
+    align:right;
+    text-align:right;
+    margin-right:5%;
+}
+.developers{
+    text-align:center;
+    margin-top: 7%;
+    color:white;
+    font-family: 'Noto Serif', serif
+}
+.contact{
+    margin-top:5%;
+}

@@ -1,0 +1,5 @@
+== Analyzed Logical Plan ==
+major_id: string, count(first_name): bigint
+Aggregate [major_id#192], [major_id#192, count(first_name#183) AS count(first_name)#234L]
++- SubqueryAlias student
+   +- Relation[stud_id#182,first_name#183,last_name#184,birthday#185,gender#186,age#187,stud_email#188,stud_phone#189,stud_address#190,school_id#191,major_id#192] csv
